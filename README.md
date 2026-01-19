@@ -48,8 +48,8 @@ I am currently building a comprehensive embedded portfolio focused on **Automoti
 
 | Project | Status | The Engineering Challenge |
 | :--- | :--- | :--- |
-| **1. The Firmware Foundation**<br>*(Bare-Metal Driver Suite)* | 🚧 **In Progress** | **Goal:** Zero-HAL control of the STM32F446RE.<br>**Tech:** Registers, DMA, Linker Scripts, Custom Allocator.<br>**Key Feature:** Manually mapping high-speed buffers to CCM RAM using custom linker scripts. |
-| **2. The System Architect**<br>*(Hybrid Bootloader)* | 📅 **Planned** | **Goal:** Designing a versatile, transport-agnostic update engine for ECUs.<br>**Tech:** Flash Memory Map, CRC32, A/B Partitioning.<br>**Key Feature:** A flexible architecture supporting **Dual-Source Updates**: capable of **Local Flashing** (via UART/Service Tool) and **Remote FOTA** (via CAN/Gateway). |
+| **1. The Firmware Foundation**<br>*(Bare-Metal Driver Suite)* | ✅ **Completed** | **Goal:** Zero-HAL control of the STM32F446RE.<br>**Tech:** Registers, DMA, Linker Scripts, Custom Allocator.<br>**Key Feature:** Manually mapping high-speed buffers to CCM RAM using custom linker scripts. |
+| **2. The System Architect**<br>*(Hybrid Bootloader)* | 🚧 **In Progress** | **Goal:** Designing a versatile, transport-agnostic update engine for ECUs.<br>**Tech:** Flash Memory Map, CRC32, A/B Partitioning.<br>**Key Feature:** A flexible architecture supporting **Dual-Source Updates**: capable of **Local Flashing** (via UART/Service Tool) and **Remote FOTA** (via CAN/Gateway). |
 | **3. The Application Expert**<br>*(FreeRTOS + CAN Bus)* | 📅 **Planned** | **Goal:** Simulating a distributed automotive network.<br>**Tech:** FreeRTOS, CAN (bxCAN), SPI/I2C, ESP32 Gateway.<br>**Key Feature:** "Car on a Desk" — Node A (ECU) handles sensors/actuators while Node B (Gateway) bridges telemetry to the cloud via MQTT. |
 
 ---
@@ -58,10 +58,10 @@ I am currently building a comprehensive embedded portfolio focused on **Automoti
 
 I am passionate about the engineering behind high-performance machines and immersive experiences. My key areas of interest are:
 
+* **⚙️ Firmware Engineering:** At my core, I love the challenge of **system-level programming**—writing the optimized, low-level C code that sits directly on the silicon to make these electronic systems possible.
+
 * **🏎️ High-Performance Automotive:** Inspired by **Formula 1** and premium supercars, I am fascinated by the critical embedded systems that manage telemetry, ECUs, and millisecond-latency control.
 
 * **🔊 Pro-Audio Technology:** From **Dolby** architectures to stadium-level concert sound setups, I am driven to understand the Digital Signal Processing (DSP) and firmware that deliver high-fidelity audio.
-
-* **⚙️ Firmware Engineering:** At my core, I love the challenge of **system-level programming**—writing the optimized, low-level C code that sits directly on the silicon to make these electronic systems possible.
 
 ---
