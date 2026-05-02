@@ -20,8 +20,6 @@ My goal is to craft efficient, deterministic code that transforms raw circuits i
 
 ## 🏗️ Engineering Roadmap & Active Projects
 
-I am currently building a comprehensive embedded portfolio focused on **Automotive Systems** and **Bare-Metal Performance**. 
-
 | Project | Status | The Engineering Challenge |
 | :--- | :--- | :--- |
 | **1. The Firmware Foundation**<br>*(Bare-Metal Driver Suite)* | ✅ **Completed** | **Goal:** Zero-HAL control of the STM32F446RE.<br>**Tech:** Registers, DMA, Linker Scripts, Custom Allocator.<br>**Key Feature:** Manually mapping high-speed buffers to CCM RAM using custom linker scripts. |
